@@ -1,0 +1,30 @@
+*
+{
+    padding: 0%;
+    margin: 0%;
+}
+
+.frontcover
+{
+    height: 1000px;
+    width: 100%;
+    background-image: url(frontcover.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.frontimg
+{
+    width: 100%;
+
+}
+
+.fronttext
+{
+    height: 500px;
+    color: white;
+    width: 70%;
+}
+

@@ -1,0 +1,117 @@
+*
+{
+    background-color: rgb(22,20,23);
+}
+
+a,li
+{
+    marker: none;
+    text-decoration: none;
+}
+
+body
+{
+    height: 100%;
+}
+
+/* nav */
+.navbar-collapse
+{
+    height: 75px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav-item
+{
+    margin: 30px;
+}
+
+
+input
+{
+    width: 210px;
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+    text-align: center;
+    
+}
+
+textarea
+{
+    width: 230px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+::placeholder
+{
+    font-family: "Teko", sans-serif;
+    color: black;
+    text-align: center;
+}
+
+.feedback
+{
+    padding-left: 50px;
+    /* padding-right: 50px; */
+    margin-bottom: -5px;
+}
+
+/* body */
+
+.body-front
+{
+    background-color: rgb(22,20,23);
+    height: 500px;
+    /* width: 100%; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* text-align: center; */
+}
+
+
+.name-div
+{
+    width: 70%;
+}
+
+.name
+{
+    width: 70%;
+    font-family: "Anta", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 4rem;
+}
+
+.hwd
+{
+    width: 30%;
+}
+
+  .helloworld {
+    
+    font-size: 5rem;
+  }
+
+.mylinks
+{
+    
+    display: flex;
+    justify-content: space-around;
+}
+
+#my-links
+{
+    padding-left:48px;
+    padding-right: 48px;
+}
+
+h4
+{
+
+}
+
