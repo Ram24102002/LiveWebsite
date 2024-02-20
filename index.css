@@ -22,6 +22,8 @@ body
     justify-content: space-evenly;
 }
 
+
+
 .nav-item
 {
     margin: 30px;
@@ -30,17 +32,20 @@ body
 
 input
 {
-    width: 210px;
+    width: 370px;
     height: 30px;
-    border-radius: 20px;
+    border-radius: 10px;
     border: none;
     text-align: center;
     
 }
 
+
+
+
 textarea
 {
-    width: 230px;
+    width: 370px;
     border-radius: 10px;
     text-align: center;
 }
@@ -110,8 +115,83 @@ textarea
     padding-right: 48px;
 }
 
-h4
+.btn
 {
+    color: black;
+}
 
+@media all and (max-width:770px)
+{
+    
+    .hwd
+    {
+        opacity: 0;
+    }
+
+    .name
+    {
+        font-size: 2.5rem;
+    }
+
+    #ask-bar
+    {
+        height: 0px;
+        width: 0px;
+        background-color: none;
+        background: none;
+        padding: 0;
+        margin: 0;
+    }
+    .feedback
+    {
+        position: absolute;
+        margin-left: 340px;
+        margin-top: -71px;
+        background: transparent;
+    }
+
+    .mylinks
+    {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    
+    #my-links
+    {
+        display: inline;
+        width: 180px;
+    }
+    .navbarnav
+    {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        margin-top: -110px;
+        margin-left: 20px;
+    }
+    .nav-item
+    {
+        margin: 10px;
+    }
+    .body-front
+    {
+        margin-top: -100px;
+    }
+    .nac-sec
+    {
+        /* margin-top: -0px; */
+    }
+    .hwd
+    {
+        margin-left: -500px;
+    }
+    #my-links
+{
+    padding-left:24px;
+    padding-right: 24px;
+    height: 30px;
+    width: auto;
+}
 }
 
