@@ -3,10 +3,11 @@
     background-color: rgb(22,20,23);
 }
 
-div
+div, section
 {
     border: none;
 }
+
 
 a,li
 {
@@ -180,10 +181,7 @@ textarea
     {
         margin: 10px;
     }
-    .body-front
-    {
-        /* margin-top: -100px; */
-    }
+    
     .nac-sec
     {
         margin-top: 100px;
