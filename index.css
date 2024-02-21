@@ -145,9 +145,10 @@ textarea
     .feedback
     {
         position: absolute;
-        margin-left: 330px;
-        margin-top: -73px;
+        margin-left: 355px;
+        margin-top: -60px;
         background: transparent;
+        writing-mode: vertical-lr;
     }
 
     .mylinks
@@ -168,7 +169,7 @@ textarea
         flex-direction: row;
         flex-wrap: nowrap;
         margin-top: -112px;
-        margin-left: 25px;
+        margin-left: 50px;
     }
     .nav-item
     {
