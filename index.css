@@ -4,6 +4,7 @@
 }
 
 div, section
+
 {
     border: none;
 }
@@ -126,7 +127,7 @@ textarea
     color: black;
 }
 
-@media all and (max-width:770px)
+@media all and (max-width:600px)
 {
     
     .hwd
