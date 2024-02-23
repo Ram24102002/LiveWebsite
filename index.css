@@ -158,7 +158,7 @@ textarea
     .feedback
     {
         position: absolute;
-        margin-left: 355px;
+        margin-left: 37vh;
         margin-top: -60px;
         background: transparent;
         writing-mode: vertical-lr;
