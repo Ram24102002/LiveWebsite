@@ -3,11 +3,7 @@
     background-color: rgb(22,20,23); 
 }
 
-html
-{
-    height: -webkit-fill-available;
-    /* height: 100%; */
-}
+
 div, section
 
 {
@@ -21,11 +17,7 @@ a,li
     text-decoration: none;
 }
  
-body
-{
-    
-    height: -webkit-fill-available;
-}
+
 
 /* nav */
 .navbar-collapse
@@ -135,6 +127,18 @@ textarea
 
 @media all and (max-width:600px)
 {
+
+    html
+    {
+        height: -webkit-fill-available;
+        /* height: 100%; */
+    }
+    body
+    {
+        
+        height: -webkit-fill-available;
+    }
+
     
     .hwd
     {
